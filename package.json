@@ -1,0 +1,16 @@
+{
+	"name": "prettier-svelte-bug",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"repro": "prettier --write src/App.svelte"
+	},
+	"devDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^6.0.2",
+		"prettier": "^3.8.3",
+		"prettier-plugin-svelte": "^3.5.1",
+		"prettier-plugin-tailwindcss": "^0.7.2",
+		"svelte": "^5.55.4"
+	}
+}
